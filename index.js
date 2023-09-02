@@ -14,7 +14,7 @@ app.set('view engine', 'handlebars');
 
 app.get('/', function (req, res) {
     res.render('home', {
-        stuff: "The main content of the page"
+        stuff: "The main content ......"
     });
 });
 
