@@ -17,6 +17,11 @@ app.get('/', function (req, res) {
         stuff: "The main content ......"
     });
 });
+app.get('/about', function (req, res) {
+    res.render('about', {
+        goods: "The about content ......"
+    });
+});
 
 // Set static folder
 
